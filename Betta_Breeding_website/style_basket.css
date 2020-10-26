@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+
+.menu-bar{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.menu-bar li{
+    display: inline-block;
+}
+.menu-bar li a {
+    text-decoration: none ;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 5px 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+.basket-bar,.menu-bar li a:hover {
+    background:orange;
+    border-radius: 7px;
+    padding: 5px 20px;
+    color: black;
+    font-weight: 500;
+
+}
+
+.menu-bar .fa{
+    margin-right: 8px ;
+}
+
+.LOGO img{
+    width: 125px;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.cont_my_cart table{
+    margin-left: 160px;
+    width: 80%;
+    border-collapse: collapse;
+    
+
+}
+.product-cart{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+th{ /*แต่งหัวข้อตาราง*/
+    text-align: left;
+    padding: 10px;
+    color: black;
+    background: rgb(255, 185, 56);
+    font-family: 'Nunito', sans-serif;
+}
+td{
+    padding: 20px 5px;
+}
+td input {  /*แต่งตัวเลข input จำนวนสินค้า*/
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+}
+td a { /*แต่ง remove*/
+    font-size: 16px;
+    color: #ff523b;
+    text-decoration: none ;
+    font-family: 'Nunito',sans-serif;
+
+}
+td a:hover {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ff1e00;
+    font-family: 'Nunito',sans-serif;
+}
+td img {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+
+}
+.text-product {
+    font-size: 18px;
+    font-family: 'Nunito',sans-serif;
+
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.total-price-txt{
+    font-family: 'Nunito',sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+.total-price table {
+    width: 100%;
+    max-width: 400px;
+    border-top:3px solid #ff523b;
+    margin-right: 100px;
+    
+}
+td:last-child{
+    text-align: right;
+
+}
+th:last-child{
+    text-align: right;
+}

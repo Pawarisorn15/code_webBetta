@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+.menu-bar{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.menu-bar li{
+    display: inline-block;
+}
+.menu-bar li a {
+    text-decoration: none ;
+    color: white;
+    font-size: 16px;
+    padding: 5px 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+.contact-btn,.menu-bar li a:hover {
+    background:orange;
+    border-radius: 7px;
+    padding: 5px 20px;
+    color: black;
+    font-weight: 500;
+}
+.menu-bar .fa{
+    margin-right: 8px ;
+}
+.menu-bar .login-btn a {
+    background: rgb(255, 0, 85) ;
+    border-radius: 7px;
+    
+}
+
+.LOGO img{
+    width: 125px;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.contact-selection {
+    background-image: url("image_web/login_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+    padding:  10px 0;
+    height: 130vh;
+    position: relative;
+}
+.contact-selection h1{
+    color: orange;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Nunito', sans-serif;
+}
+.contact-selection p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    opacity: 0.5;
+
+}
+.contact-form{
+    width: 400px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+    color: white;
+    font-size: 16px;
+    font-family: 'Nunito' ,sans-serif;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border: 1px solid white;
+    background: #111;
+    padding: 5px 40px;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #fff;
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 100px;
+}
+.send-btn{
+    background: orange;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px 50px ;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 100px;
+    font-family: 'Nunito', sans-serif;
+   
+
+}
+.send-btn:hover{
+    background: -webkit-linear-gradient(left,#12ff0a,#ff7300,#0004ff);
+    font-weight: bold ;
+}
+.icon-contact{
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.icon-contact img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+
+.icon-contact img:hover{
+    border:2px solid white;
+    border-radius: 15px;
+}
+
